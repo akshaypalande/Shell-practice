@@ -1,0 +1,6 @@
+echo " Sequences Practice Problems "
+echo "  "
+
+
+
+echo $((1+RANDOM%6))

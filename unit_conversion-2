@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Unit Conversion
+
+# 2) Rectangular plot of 60 feet x 40 feet in meters.
+
+echo "Enter The Length Of Rectangular plot in feets"
+read f1
+read f2
+c=10.36;
+a=$(($f1*$f2))
+area=$(awk 'BEGIN {print '$a' / '$c'}')
+echo $area in square meters. 

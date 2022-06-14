@@ -1,0 +1,3 @@
+echo " welcome to Sequences Practice Problem "
+
+echo $((1+RANDOM%10))

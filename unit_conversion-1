@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# unit conversion
+# 1) 1ft =12 in then 42 in =? ft
+
+echo "feet to inch conversion "
+echo " Enter "1" for Feet "
+echo " Enter "2" for inch "
+read unit
+if [ $unit  -eq 1 ]
+then
+echo "Enter feet"
+read feet
+in=$(($feet*12))
+echo $feet feet=$in inch
+else
+echo "Enter inch"
+read in
+feet=$(($in/12))
+echo $in inch=$feet ft
+fi

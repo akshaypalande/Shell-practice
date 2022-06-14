@@ -1,0 +1,20 @@
+echo " Welcome to Sequence Practice Problem "
+
+echo "  "
+
+echo " 4) Write a program that reads 5 Random 2 Digit values , 
+then find thier sum and average. "
+
+echo " " 
+sum=0;
+for i in 1 2 3 4 5
+do
+     sum=$((sum+$((1+$RANDOM%100))))
+done
+echo " sum of all five, two digit random number"
+echo $sum
+avg=$(($sum/5))
+
+echo " "
+echo " average of all random numbers "
+echo $avg
